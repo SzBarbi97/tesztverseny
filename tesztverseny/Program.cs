@@ -112,7 +112,7 @@ namespace tesztverseny
                 }
             }
 
-            List<int> elso_harom = new List<int>(); 
+            List<int> elso_harom = new List<int>();
             int helyezes = 0;
             foreach (var item in diakokEsPontszamaik.OrderByDescending(a => a.Value))
             {
